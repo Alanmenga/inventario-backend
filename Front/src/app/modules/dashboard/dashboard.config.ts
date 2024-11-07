@@ -1,11 +1,11 @@
 import { ApplicationConfig, importProvidersFrom } from '@angular/core';
 import { provideRouter } from '@angular/router';
-import { dashboardRoutes } from './dashboard.routes';
 import { CommonModule } from '@angular/common';
+import { childRoutes } from './router-child.routes';
 
 export const dashboardConfig: ApplicationConfig = {
   providers: [
     importProvidersFrom(CommonModule),
-    provideRouter(dashboardRoutes)
+    provideRouter(childRoutes)
   ]
 };

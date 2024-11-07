@@ -5,5 +5,3 @@ export const childRoutes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'home', component: HomeComponent },
 ];
-
-export class RouterChildModule { }
