@@ -47,7 +47,6 @@ import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
 
 export const materialProviders = [
-    importProvidersFrom(
         CommonModule,
         A11yModule,
         ClipboardModule,
@@ -93,5 +92,4 @@ export const materialProviders = [
         OverlayModule,
         PortalModule,
         ScrollingModule
-        )
   ];
